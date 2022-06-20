@@ -1,8 +1,4 @@
-
-
-# Define a job to be invoked later in a workflow.
-# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
-version: 2
+version: 2.1
 jobs:
   build:
     docker:
@@ -23,12 +19,3 @@ jobs:
             --tenant $CX_TENANT \
             --client-id $CX_CLIENT_ID \
             --client-secret $CX_CLIENT_SECRET \
-
-# Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
-workflows:
-  say-hello-workflow:
-    jobs:
-      - say-hello
-      
-

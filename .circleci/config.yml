@@ -18,4 +18,5 @@ jobs:
             --base-auth-uri $CX_BASE_AUTH_URI \
             --tenant $CX_TENANT \
             --client-id $CX_CLIENT_ID \
-            --client-secret $CX_CLIENT_SECRET
+            --client-secret $CX_CLIENT_SECRET \
+            --async

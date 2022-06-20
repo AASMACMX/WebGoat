@@ -8,4 +8,4 @@ jobs:
       - run:
           name: "Run Scan"
           command: |
-            /app/bin/cx scan create --project-name test -s ./ --agent CircleCI --branch develop base-uri $CX_BASE_URI base-auth-uri $CX_BASE_AUTH_URI tenant $CX_TENANT --client-id $CX_CLIENT_ID client-secret $CX_CLIENT_SECRET
+            /app/bin/cx scan create --project-name AASMACMX/Apex_Aalbert_Vulnerable_Code -s ./ --branch master --agent Intellij

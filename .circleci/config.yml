@@ -13,7 +13,7 @@ jobs:
             -s ./ \
             --agent CircleCI \
             --project-name $PROJECT \
-            --branch $CX_BRANCH \
+            --branch "develop" \
             --base-uri $CX_BASE_URI \
             --base-auth-uri $CX_BASE_AUTH_URI \
             --tenant $CX_TENANT \
